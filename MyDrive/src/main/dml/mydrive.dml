@@ -1,0 +1,169 @@
+package pt.tecnico.mydrive.domain;
+
+
+//Class Specification
+
+class MyDrive{
+	Integer _creationId;
+}
+
+class Session{
+	long _token;
+	DateTime _lastAccess;
+}
+
+class User{
+	int _systemId;
+	String _name;
+	String _userName;
+	String _password;
+	String _uMask;
+	String _homeDir;
+}
+
+class Root extends User {}
+
+class Nobody extends User {}
+
+class MyDriveFile{
+	Integer 	_fileId;
+	String 		_fileName;
+	DateTime 	_lastModification;
+	String		_path;
+	String		_filePermission;	
+}
+
+class Directory extends MyDriveFile{
+}
+
+class Text extends MyDriveFile{
+	String _Content;
+}
+
+class Link extends Text{
+}
+
+class App extends Text{
+}
+
+class Plain extends Text{
+}
+
+class EnvVar{
+	String name;
+	String value;
+}
+
+class Association{
+	String extension;
+}
+
+
+//Relations Specification
+
+relation AssociationContainsMyDriveFile{
+	Association playsRole association;
+	MyDriveFile playsRole file {multiplicity 1;}
+}
+relation UserHasAssociation{
+	User playsRole user;
+	Association playsRole association {multiplicity *;}
+}
+
+relation SessionContainsEnvVar{
+	Session playsRole session;
+	EnvVar playsRole variableList {multiplicity *;}
+}
+
+relation DomainRootHasMyDriveApplication{
+	.pt.ist.fenixframework.DomainRoot playsRole root{
+		multiplicity 0..1;
+	}
+
+	MyDrive playsRole mydrive{
+		multiplicity 0..1;
+	}
+}
+
+relation UserContainsFile{
+	User playsRole creator{
+		multiplicity 1;
+	}
+
+	MyDriveFile playsRole file{
+		multiplicity 0..*;
+	}
+}
+
+relation MyDriveHasSession{
+	MyDrive playsRole mydrive{
+		multiplicity 1;
+	}
+	Session playsRole sessions{
+		multiplicity 0..*;
+	}
+}
+
+relation MyDriveHasUser{
+	MyDrive playsRole mydrive{
+		multiplicity 1;
+	}
+	User playsRole userList{
+		multiplicity 1..*;
+	}
+}
+
+relation MyDriveHasFile{
+	MyDrive playsRole mydrive{
+		multiplicity 1;
+	}
+	MyDriveFile playsRole fileList{
+		multiplicity 0..*;
+	}
+}
+
+
+relation DirectoryHasFile{
+	Directory playsRole directory{
+		multiplicity 1;
+	}
+	MyDriveFile playsRole directoryFiles{
+		multiplicity 0..*;
+	}
+}
+
+
+relation DirectoryHasParentDirectory{
+	Directory playsRole current{
+		multiplicity 1;
+	}
+	
+	Directory playsRole parent{
+		multiplicity 1;
+	}
+}
+
+relation SessionHasCurrentDirectory{
+	Session playsRole session{
+		multiplicity 0;
+	}
+	
+	Directory playsRole currentDir{
+		multiplicity 1;
+	}
+}
+
+relation SessionHasCurrentUser{
+	Session playsRole session{
+		multiplicity 0;
+	}
+	
+	User playsRole currentUser{
+		multiplicity 1;
+	}
+}
+
+//
+
+
+
