@@ -1,0 +1,86 @@
+package pt.tecnico.phonebook.domain;
+
+					/*CLASSES*/
+Class MyDrive{
+	Integer _counter; /* id */  
+}
+
+Class Root{
+}
+
+Class User{
+	String _username;
+	String _password;
+	String _name;
+	Enum _umask;  /*para saber o tipo de acesso*/
+
+}
+
+
+Class File{				/*classe abstracta*/
+	String _filename;
+	Integer _numID;
+	Directory _fileLocation;
+	Date _lastModification;
+	String _creator;
+	String _filepermission;
+
+}
+
+Class Text extends File{
+	String _content;
+}
+
+Class Directory extends File{
+	Directory _parentDir;
+}
+
+Class Link extends Text{
+}
+
+Class App extends Text{
+}
+
+Class Plain extends Text{
+}
+						/*RELATIONS*/
+
+relation DomainRootHasMyDriveApplication {
+  .pt.ist.fenixframework.DomainRoot playsRole root {
+    multiplicity 0..1;
+  }
+  MyDrive playsRole mydrive {
+    multiplicity 0..1;
+  }
+}
+
+relation MyDriveHasUsers{
+	Mydrive playsRole mydrive;
+	User playsRole user{
+		multiplicity *;
+	}
+}
+
+relation UserHasFiles{
+	User playsRole user;
+	File playsRole file{
+		multiplicity *;
+	}
+}
+
+relation MyDriveHasFiles{
+	Mydrive playsRole files;
+	File playsRole file{
+		multiplicity *;
+	}
+}
+
+relation DirectoryHasFiles{
+	Directory playsRole directory;
+	File playsRole file{
+		multiplicity *;
+	}
+}
+
+
+

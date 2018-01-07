@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mydrive>
+  <user id="15">
+    <username>jola</username>
+    <password>jolaPW</password>
+    <name>jola</name>
+    <homedir>/home/jola</homedir>
+    <mask>rwxd</mask>
+  </user>
+  <user id="13">
+    <username>pestana</username>
+    <password>pestanaPW</password>
+    <name>pestana</name>
+    <homedir>/home/pestana</homedir>
+    <mask>rwxd</mask>
+  </user>
+  <user id="11">
+    <username>diogo</username>
+    <password>diogoPW</password>
+    <name>diogo</name>
+    <homedir>/home/diogo</homedir>
+    <mask>rwxd</mask>
+  </user>
+  <user id="9">
+    <username>miguens</username>
+    <password>miguensPW</password>
+    <name>miguens</name>
+    <homedir>/home/miguens</homedir>
+    <mask>rwxd</mask>
+  </user>
+  <user id="7">
+    <username>luis</username>
+    <password>luisPW</password>
+    <name>luis</name>
+    <homedir>/home/luis</homedir>
+    <mask>rwxd</mask>
+  </user>
+  <user id="5">
+    <username>ritto</username>
+    <password>rittoPW</password>
+    <name>ritto</name>
+    <homedir>/home/ritto</homedir>
+    <mask>rwxd</mask>
+  </user>
+  <user id="3">
+    <username>nobody</username>
+    <password />
+    <name>Guest</name>
+    <homedir>/home/nobody</homedir>
+    <mask>rwxdr-x-</mask>
+  </user>
+  <user id="1">
+    <username>root</username>
+    <password>***</password>
+    <name>root</name>
+    <homedir>/home/root</homedir>
+    <mask>rwxdr-x-</mask>
+  </user>
+  <dir id="38">
+    <name>DIRdiogo2</name>
+    <owner>diogo</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/diogo/DIRdiogo/DIRdiogo2</path>
+    <lastmodified>2016-05-04T03:20:09.920+01:00</lastmodified>
+  </dir>
+  <dir id="37">
+    <name>DIRpestana2</name>
+    <owner>pestana</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/pestana/DIRpestana/DIRpestana2</path>
+    <lastmodified>2016-05-04T03:20:09.919+01:00</lastmodified>
+  </dir>
+  <dir id="36">
+    <name>DIRmiguens2</name>
+    <owner>miguens</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/miguens/DIRmiguens/DIRmiguens2</path>
+    <lastmodified>2016-05-04T03:20:09.919+01:00</lastmodified>
+  </dir>
+  <dir id="35">
+    <name>DIRjola2</name>
+    <owner>jola</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/jola/DIRjola/DIRjola2</path>
+    <lastmodified>2016-05-04T03:20:09.918+01:00</lastmodified>
+  </dir>
+  <dir id="34">
+    <name>DIRluis2</name>
+    <owner>luis</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/luis/DIRluis/DIRluis2</path>
+    <lastmodified>2016-05-04T03:20:09.917+01:00</lastmodified>
+  </dir>
+  <dir id="33">
+    <name>DIRritto2</name>
+    <owner>ritto</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/ritto/DIRritto/DIRritto2</path>
+    <lastmodified>2016-05-04T03:20:09.917+01:00</lastmodified>
+  </dir>
+  <dir id="32">
+    <name>DIR2</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/root/DIR/DIR2</path>
+    <lastmodified>2016-05-04T03:20:09.916+01:00</lastmodified>
+  </dir>
+  <dir id="31">
+    <name>DIRdiogo1</name>
+    <owner>diogo</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/diogo/DIRdiogo1</path>
+    <lastmodified>2016-05-04T03:20:09.916+01:00</lastmodified>
+  </dir>
+  <dir id="30">
+    <name>DIRpestana1</name>
+    <owner>pestana</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/pestana/DIRpestana1</path>
+    <lastmodified>2016-05-04T03:20:09.915+01:00</lastmodified>
+  </dir>
+  <dir id="29">
+    <name>DIRmiguens1</name>
+    <owner>miguens</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/miguens/DIRmiguens1</path>
+    <lastmodified>2016-05-04T03:20:09.915+01:00</lastmodified>
+  </dir>
+  <dir id="28">
+    <name>DIRjola1</name>
+    <owner>jola</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/jola/DIRjola1</path>
+    <lastmodified>2016-05-04T03:20:09.915+01:00</lastmodified>
+  </dir>
+  <dir id="27">
+    <name>DIRluis1</name>
+    <owner>luis</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/luis/DIRluis1</path>
+    <lastmodified>2016-05-04T03:20:09.914+01:00</lastmodified>
+  </dir>
+  <dir id="26">
+    <name>DIRritto1</name>
+    <owner>ritto</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/ritto/DIRritto1</path>
+    <lastmodified>2016-05-04T03:20:09.914+01:00</lastmodified>
+  </dir>
+  <dir id="25">
+    <name>DIR1</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/root/DIR1</path>
+    <lastmodified>2016-05-04T03:20:09.913+01:00</lastmodified>
+  </dir>
+  <dir id="24">
+    <name>DIRdiogo</name>
+    <owner>diogo</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/diogo/DIRdiogo</path>
+    <lastmodified>2016-05-04T03:20:09.913+01:00</lastmodified>
+  </dir>
+  <dir id="23">
+    <name>DIRpestana</name>
+    <owner>pestana</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/pestana/DIRpestana</path>
+    <lastmodified>2016-05-04T03:20:09.912+01:00</lastmodified>
+  </dir>
+  <dir id="22">
+    <name>DIRmiguens</name>
+    <owner>miguens</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/miguens/DIRmiguens</path>
+    <lastmodified>2016-05-04T03:20:09.912+01:00</lastmodified>
+  </dir>
+  <dir id="21">
+    <name>DIRjola</name>
+    <owner>jola</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/jola/DIRjola</path>
+    <lastmodified>2016-05-04T03:20:09.911+01:00</lastmodified>
+  </dir>
+  <dir id="20">
+    <name>DIRluis</name>
+    <owner>luis</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/luis/DIRluis</path>
+    <lastmodified>2016-05-04T03:20:09.911+01:00</lastmodified>
+  </dir>
+  <dir id="19">
+    <name>DIRritto</name>
+    <owner>ritto</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/ritto/DIRritto</path>
+    <lastmodified>2016-05-04T03:20:09.910+01:00</lastmodified>
+  </dir>
+  <dir id="18">
+    <name>DIR</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/root/DIR</path>
+    <lastmodified>2016-05-04T03:20:09.909+01:00</lastmodified>
+  </dir>
+  <dir id="17">
+    <name>DIR</name>
+    <owner>nobody</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/nobody/DIR</path>
+    <lastmodified>2016-05-04T03:20:09.908+01:00</lastmodified>
+  </dir>
+  <dir id="16">
+    <name>jola</name>
+    <owner>jola</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/jola</path>
+    <lastmodified>2016-05-04T03:20:09.907+01:00</lastmodified>
+  </dir>
+  <dir id="14">
+    <name>pestana</name>
+    <owner>pestana</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/pestana</path>
+    <lastmodified>2016-05-04T03:20:09.906+01:00</lastmodified>
+  </dir>
+  <dir id="12">
+    <name>diogo</name>
+    <owner>diogo</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/diogo</path>
+    <lastmodified>2016-05-04T03:20:09.905+01:00</lastmodified>
+  </dir>
+  <dir id="10">
+    <name>miguens</name>
+    <owner>miguens</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/miguens</path>
+    <lastmodified>2016-05-04T03:20:09.904+01:00</lastmodified>
+  </dir>
+  <dir id="8">
+    <name>luis</name>
+    <owner>luis</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/luis</path>
+    <lastmodified>2016-05-04T03:20:09.904+01:00</lastmodified>
+  </dir>
+  <dir id="6">
+    <name>ritto</name>
+    <owner>ritto</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/ritto</path>
+    <lastmodified>2016-05-04T03:20:09.903+01:00</lastmodified>
+  </dir>
+  <dir id="0">
+    <name>home</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home</path>
+    <lastmodified>2016-05-04T03:20:09.891+01:00</lastmodified>
+  </dir>
+  <dir id="2">
+    <name>root</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/root</path>
+    <lastmodified>2016-05-04T03:20:09.900+01:00</lastmodified>
+  </dir>
+  <dir id="4">
+    <name>nobody</name>
+    <owner>nobody</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/nobody</path>
+    <lastmodified>2016-05-04T03:20:09.901+01:00</lastmodified>
+  </dir>
+  <plainfile id="59">
+    <name>FILEdiogo2</name>
+    <owner>diogo</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/diogo/FILEdiogo2</path>
+    <lastmodified>2016-05-04T03:20:09.928+01:00</lastmodified>
+    <data>file2 do diogo</data>
+  </plainfile>
+  <plainfile id="58">
+    <name>FILEjola2</name>
+    <owner>jola</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/jola/FILEjola2</path>
+    <lastmodified>2016-05-04T03:20:09.928+01:00</lastmodified>
+    <data>file2 do jola</data>
+  </plainfile>
+  <plainfile id="57">
+    <name>FILEpestana2</name>
+    <owner>pestana</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/pestana/FILEpestana2</path>
+    <lastmodified>2016-05-04T03:20:09.928+01:00</lastmodified>
+    <data>file do pestana</data>
+  </plainfile>
+  <plainfile id="56">
+    <name>FILEluis2</name>
+    <owner>luis</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/luis/FILEluis2</path>
+    <lastmodified>2016-05-04T03:20:09.928+01:00</lastmodified>
+    <data>file2 do luis</data>
+  </plainfile>
+  <plainfile id="55">
+    <name>FILEmiguens2</name>
+    <owner>miguens</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/miguens/FILEmiguens2</path>
+    <lastmodified>2016-05-04T03:20:09.927+01:00</lastmodified>
+    <data>file2 do miguens</data>
+  </plainfile>
+  <plainfile id="54">
+    <name>FILEritto2</name>
+    <owner>ritto</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/ritto/FILEritto2</path>
+    <lastmodified>2016-05-04T03:20:09.926+01:00</lastmodified>
+    <data>file2 do ritto</data>
+  </plainfile>
+  <plainfile id="53">
+    <name>FILE2</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/root/FILE2</path>
+    <lastmodified>2016-05-04T03:20:09.926+01:00</lastmodified>
+    <data>file2 do root</data>
+  </plainfile>
+  <plainfile id="45">
+    <name>FILEdiogo</name>
+    <owner>diogo</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/diogo/FILEdiogo</path>
+    <lastmodified>2016-05-04T03:20:09.924+01:00</lastmodified>
+    <data>file do diogo</data>
+  </plainfile>
+  <plainfile id="46">
+    <name>FILE1</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/root/DIR/FILE1</path>
+    <lastmodified>2016-05-04T03:20:09.924+01:00</lastmodified>
+    <data>file1 do root</data>
+  </plainfile>
+  <plainfile id="47">
+    <name>FILEritto1</name>
+    <owner>ritto</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/ritto/DIRritto1/FILEritto1</path>
+    <lastmodified>2016-05-04T03:20:09.925+01:00</lastmodified>
+    <data>file1 do ritto</data>
+  </plainfile>
+  <plainfile id="48">
+    <name>FILEmiguens1</name>
+    <owner>miguens</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/miguens/DIRmiguens1/FILEmiguens1</path>
+    <lastmodified>2016-05-04T03:20:09.925+01:00</lastmodified>
+    <data>file1 do miguens</data>
+  </plainfile>
+  <plainfile id="49">
+    <name>FILEluis1</name>
+    <owner>luis</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/luis/DIRluis1/FILEluis1</path>
+    <lastmodified>2016-05-04T03:20:09.925+01:00</lastmodified>
+    <data>file1 do luis</data>
+  </plainfile>
+  <plainfile id="50">
+    <name>FILEpestana1</name>
+    <owner>pestana</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/pestana/DIRpestana1/FILEpestana1</path>
+    <lastmodified>2016-05-04T03:20:09.925+01:00</lastmodified>
+    <data>file1 do pestana</data>
+  </plainfile>
+  <plainfile id="51">
+    <name>FILEjola1</name>
+    <owner>jola</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/jola/DIRjola1/FILEjola1</path>
+    <lastmodified>2016-05-04T03:20:09.925+01:00</lastmodified>
+    <data>file1 do jola</data>
+  </plainfile>
+  <plainfile id="52">
+    <name>FILEdiogo1</name>
+    <owner>diogo</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/diogo/DIRdiogo1/FILEdiogo1</path>
+    <lastmodified>2016-05-04T03:20:09.926+01:00</lastmodified>
+    <data>file1 do diogo</data>
+  </plainfile>
+  <plainfile id="44">
+    <name>FILEjola</name>
+    <owner>jola</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/jola/FILEjola</path>
+    <lastmodified>2016-05-04T03:20:09.924+01:00</lastmodified>
+    <data>file do jola</data>
+  </plainfile>
+  <plainfile id="43">
+    <name>FILEpestana</name>
+    <owner>pestana</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/pestana/FILEpestana</path>
+    <lastmodified>2016-05-04T03:20:09.924+01:00</lastmodified>
+    <data>file do pestana</data>
+  </plainfile>
+  <plainfile id="42">
+    <name>FILEluis</name>
+    <owner>luis</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/luis/FILEluis</path>
+    <lastmodified>2016-05-04T03:20:09.923+01:00</lastmodified>
+    <data>file do luis</data>
+  </plainfile>
+  <plainfile id="41">
+    <name>FILEmiguens</name>
+    <owner>miguens</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/miguens/FILEmiguens</path>
+    <lastmodified>2016-05-04T03:20:09.923+01:00</lastmodified>
+    <data>file do miguens</data>
+  </plainfile>
+  <plainfile id="40">
+    <name>FILEritto</name>
+    <owner>ritto</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/ritto/FILEritto</path>
+    <lastmodified>2016-05-04T03:20:09.922+01:00</lastmodified>
+    <data>file do ritto</data>
+  </plainfile>
+  <plainfile id="39">
+    <name>FILE</name>
+    <owner>root</owner>
+    <permissions>rwxd</permissions>
+    <path>/home/root/FILE</path>
+    <lastmodified>2016-05-04T03:20:09.922+01:00</lastmodified>
+    <data>file do root</data>
+  </plainfile>
+</mydrive>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mydrive>
+  <user id="1">
+    <username>root</username>
+    <password>***</password>
+    <name>root</name>
+    <homedir>/home/root</homedir>
+    <mask>rwxdr-x-</mask>
+  </user>
+  <user id="25">
+    <username>luispb7</username>
+    <password>lppb</password>
+    <name>luis</name>
+    <homedir>/home/luispb7</homedir>
+    <mask>rwxdr-x-</mask>
+  </user>
+  <dir id="8">
+    <name>TEST DIR</name>
+    <owner>root</owner>
+    <permissions>rwed</permissions>
+    <path>/home/pFnX/BADJORAS</path>
+    <lastmodified>2016-03-21T01:55:25.241Z</lastmodified>
+  </dir>
+  <dir id="5">
+    <name>jackdaniels</name>
+    <owner>root</owner>
+    <permissions>rwed</permissions>
+    <path>/home/pFnX/jackdaniels</path>
+    <lastmodified>2016-03-21T01:55:25.236Z</lastmodified>
+  </dir>
+  <dir id="4">
+    <name>pFnX</name>
+    <owner>root</owner>
+    <permissions>rwed</permissions>
+    <path>/home/pFnX</path>
+    <lastmodified>2016-03-21T01:55:25.235Z</lastmodified>
+  </dir>
+  <dir id="0">
+    <name>home</name>
+    <owner>root</owner>
+    <permissions>----</permissions>
+    <path>/home</path>
+    <lastmodified>2016-03-21T01:55:25.232Z</lastmodified>
+  </dir>
+  <dir id="2">
+    <name>root</name>
+    <owner>root</owner>
+    <permissions>ROOT</permissions>
+    <path>/home/root</path>
+    <lastmodified>2016-03-21T01:55:25.235Z</lastmodified>
+  </dir>
+  <plainfile id="7">
+    <name>BADJORA</name>
+    <owner>root</owner>
+    <permissions>rwed</permissions>
+    <path>/home/pFnX/BADJORA</path>
+    <lastmodified>2016-03-21T01:55:25.240Z</lastmodified>
+    <data>HELLOIMBADJORAS</data>
+  </plainfile>
+  <plainfile id="6">
+    <name>GARRAFAS</name>
+    <owner>root</owner>
+    <permissions>rwed</permissions>
+    <path>/home/pFnX/GARRAFAS</path>
+    <lastmodified>2016-03-21T01:55:25.237Z</lastmodified>
+    <data>lista de utilizadores</data>
+  </plainfile>
+  <appfile id="15">
+    <name>RANDOM</name>
+    <owner>luispb7</owner>
+    <permissions>rwed</permissions>
+    <path>/home/luispb7/RANDOM</path>
+    <lastmodified>2016-03-21T01:55:25.237Z</lastmodified>
+    <data>radom stuff</data>
+  </appfile>
+</mydrive>

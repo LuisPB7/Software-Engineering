@@ -1,0 +1,100 @@
+package pt.tecnico.mydrive.domain;
+
+
+//Class Specification
+
+class MyDrive;
+
+class Permission{
+	boolean _read;
+	boolean _write;
+	boolean _execute;
+}
+
+class User{
+	String _name;
+	String _useName;
+	String _password;
+	/*String _uMask;*/
+	String _homeDir;
+}
+
+class File{
+	Integer 	_fileId;
+	String 		_fileName;
+	DateTime 	_lastModification;
+	String		_userCreator;
+	/*String		_filePermission;*/	
+}
+
+class Directory extends File{
+}
+
+class Text extends File{
+	String _Content;
+}
+
+class Link extends Text{
+}
+
+class App extends Text{
+}
+
+class Plain extends Text{
+}
+
+
+//Relations Specification
+
+relation DomainRootHasMyDriveApplication{
+	.pt.ist.fenixframework.DomainRoot playsRole root{
+		multiplicity 0..1;
+	}
+
+	MyDrive playsRole mydrive{
+		multiplicity 0..1;
+	}
+}
+
+relation UserContainsPermission{
+	User playsRole user;
+	Permission playsRole _uMask;
+}
+
+relation FileContainsPermission{
+	File playsRole file;
+	Permission playsRole _accessPermission;
+}
+
+relation UserContainsFile{
+	User playsRole user{
+		multiplicity 1..*;
+	}
+
+	File playsRole file{
+		multiplicity 0..*;
+	}
+}
+
+relation MyDriveHasUser{
+	MyDrive playsRole mydrive;
+	User playsRole userList{
+		multiplicity 1..*;
+	}
+}
+
+relation MyDriveHasFile{
+	MyDrive playsRole mydrive;
+	File playsRole fileList{
+		multiplicity 0..*;
+	}
+}
+
+
+relation DirectoryHasFile{
+	Directory playsRole directory;
+	File playsRole fileList{
+		multiplicity 0..*;
+	}
+}
+
